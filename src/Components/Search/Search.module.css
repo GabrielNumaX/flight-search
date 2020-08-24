@@ -1,0 +1,74 @@
+.DivSearch {
+    width: 300px;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    border-right: 1px solid black;
+    /* justify-content: center; */
+}
+
+.Tab {
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: flex-end;
+}
+
+.Tab button {
+    background-color: #fff;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+    padding: 5px 10px;
+}
+
+.Tab button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.FormSearch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    /* background-color: red; */
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.FormDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FormDiv:last-child {
+    justify-content: flex-start;
+}
+
+.FormDiv label {
+    margin-right: 20px;
+}
+
+.FormDiv input {
+    width: 80px;
+}
+
+.FormDiv input:hover {
+    cursor: pointer;
+}
+
+.FormInput input {
+    padding: 5px 10px;
+}
+
+.FormInput input:hover {
+    cursor: pointer;
+}
