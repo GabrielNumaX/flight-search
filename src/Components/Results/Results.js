@@ -11,8 +11,6 @@ const Results = (props) => {
         arrayCheck = true;
     }
 
-    console.log(props.result);
-    console.log(props.type);
     return (
         <div className={css.DivResults}>
 
@@ -83,8 +81,6 @@ const Results = (props) => {
                     ?
 
                     props.result.map((item, pos) => {
-
-                        console.log('twoWay');
 
                         return(
                             <div className={css.ResultItem} key={pos}>

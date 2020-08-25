@@ -86,3 +86,72 @@
     justify-content: flex-end;
     padding-bottom: 5px;
 }
+
+@media (max-width: 400px) {
+    
+    .DivCity {
+        width: 100%;
+        min-height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 5% 5px 5%;
+        border-bottom: 1px solid black;
+    }
+    
+    .DivCity h2{
+        margin: 0;
+        font-size: 26px;
+    }
+    
+    .DivDates {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    }
+    
+    .DivDates p {
+        margin: 0;
+        padding: 5px 0;
+    }
+    
+    .ResultItemContainer {
+        padding: 5%;
+    }
+    
+    .ResultItem {
+        padding: 5%px 10%;
+        margin-bottom: 10px;
+    }
+    
+    .ResultItem h3 {
+        margin: 0;
+        font-size: 24px;
+    }
+    
+    .ResultRow {
+        flex-direction: column;
+    }
+    
+    .Result {
+        margin: 5px 0;
+    }
+    
+    .Result h4 {
+        margin: 0;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    
+    .Result p {
+
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    
+    .ResultBtn {   
+        margin-top: 5px;
+    }
+}

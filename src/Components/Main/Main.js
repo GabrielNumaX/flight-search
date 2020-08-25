@@ -63,9 +63,6 @@ class Main extends Component {
 
             this.setState({
                 type: type,
-            })
-
-            this.setState({
                 origin: dataFromChild.origin,
                 destination: dataFromChild.destination,
                 dateDep: dataFromChild.dateDep,
@@ -84,8 +81,6 @@ class Main extends Component {
                         && (flights[i].price >= dataFromChild.val1 && flights[i].price <= dataFromChild.val2)){
 
                     going = {...flights[i]}
-
-                    console.log(going);
 
                     for(let j = i + 1; j < flights.length; j++){
 
@@ -106,8 +101,6 @@ class Main extends Component {
                     }
                 }
             }
-
-            // return twoWayArr;
 
             if(Array.isArray(twoWayArr) && twoWayArr.length){
 

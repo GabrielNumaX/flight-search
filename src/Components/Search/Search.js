@@ -94,8 +94,8 @@ class Search extends Component {
         e.preventDefault();
 
         const searchObj = {
-            origin: this.state.origin,
-            destination: this.state.destination,
+            origin: this.state.origin.trim(),
+            destination: this.state.destination.trim(),
             passengers: this.state.passengers,
             dateDep: moment(this.state.dateDep).format('Do MMM yyyy'),
             val1: this.state.val1,
@@ -110,8 +110,8 @@ class Search extends Component {
         e.preventDefault();
 
         const searchObj = {
-            origin: this.state.origin,
-            destination: this.state.destination,
+            origin: this.state.origin.trim(),
+            destination: this.state.destination.trim(),
             passengers: this.state.passengers,
             dateDep: moment(this.state.dateDep).format('Do MMM yyyy'),
             dateRet: moment(this.state.dateRet).format('Do MMM yyyy'),
