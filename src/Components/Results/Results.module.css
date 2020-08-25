@@ -1,8 +1,88 @@
 .DivResults {
-    width: calc(100% - 300px);
-    /* height: calc(100vh - 60px); */
+    width: 100%;
     height: 100%;
-    overflow-y: scroll;
     display: flex;
     flex-direction: column;
+    /* background-color: green; */
+}
+
+.DivCity {
+    width: 100%;
+    min-height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px 5px 20px;
+    border-bottom: 1px solid black;
+}
+
+.DivCity h2{
+    margin: 0;
+    font-size: 32px;
+}
+
+.DivDates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.DivDates p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.ResultItemContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.ResultItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.ResultItem h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.ResultRow {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Result {
+    display: flex;
+    flex-direction: column;
+}
+
+.Result h4 {
+    margin: 0;
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+.Result p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.ResultBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 5px;
 }

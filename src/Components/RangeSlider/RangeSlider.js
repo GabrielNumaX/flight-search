@@ -18,7 +18,6 @@ class RangeSlider extends Component {
     
     updatePriceLabels = (e, slider) => { 
 
-    
         let val1, val2;
       
         if (slider === 'one') {
